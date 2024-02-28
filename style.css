@@ -74,7 +74,7 @@ body{
     box-shadow:  20px 10px  #711fb0;
 }
 .third-section{
-    height: 50rem;
+    height: 5rem;
     width: 100%;
     
 }
@@ -172,6 +172,11 @@ figure {
   width: 100vw;
   height: 100vh;
 }
+.hero1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
 .hero:nth-child(1) figure {
   background-image: url("pictures/IMG_0855.jpg");
   object-position: 0px -200px;
@@ -187,6 +192,22 @@ figure {
   background-image: url("pictures/IMG_0874.jpg");
   background-position-y: bottom;
 }
+.hero1:nth-child(1):nth-child(1) figure {
+    background-image: url("pictures/IMG_1062.jpg");
+    background-position-y: bottom;
+  }
+  .hero1:nth-child(2) figure {
+    background-image: url("pictures/IMG_2203.jpg");
+  }
+  .hero1:nth-child(3) figure {
+    background-image: url("pictures/IMG_1071.jpg");
+    background-position-y: -1000px;
+  }
+  .hero1:nth-child(4) figure {
+    background-image: url("pictures/IMG_2214.jpg");
+    background-position-y: -900px;
+  }
+  
 
 .hero-inner {
   position: absolute;
@@ -231,7 +252,7 @@ background-size: cover;
 }
 .content {
   position: relative;
-  margin: 0 auto 8rem;
+  margin: 0 auto 1rem;
   padding: 2rem;
 }
 .content:before {
@@ -306,8 +327,12 @@ background-size: cover;
         height:50rem;
     }
     .container{
-        width: 10%;
-       
+        width: 100%;
+       background-color: white;
+    }
+    .container h1, h3 {
+    
+        color: black;
     }
     .encabezado{
         height: 108%;
@@ -325,8 +350,7 @@ background-size: cover;
         margin-top: 40%;
     }
     .third-section{
-        height: 80rem;
-        
+        height: 5rem;  
     }
     .img1{
         object-position: 0px -200px ;
@@ -346,5 +370,28 @@ background-position-y: bottom ;
     .hero:nth-child(4) figure {
     
         background-position-x: center;
+    }
+    .textcontainer p {
+        font-size: 5.5vw;
+       
+    }
+    .hero1:nth-child(1):nth-child(1) figure {
+       background-position-x:center ;
+      }
+      .hero1:nth-child(2) figure {
+        background-position-x:center ;
+      }
+      .hero1:nth-child(3) figure {
+        background-position-x:center ;
+        background-position-y:center ;
+   
+      }
+      .hero1:nth-child(4) figure {
+        background-position-x:center ;
+        background-position-y:center ;
+      }
+      .content {
+        margin: 0 auto 0rem;
+       
     }
 }
